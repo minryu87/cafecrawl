@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 from typing import Optional, List
 import pandas as pd
 import shutil
-from cafe_crawler import crawl_cafe, get_driver, make_search_url, scroll_down, parse_li
-from cafe_text_analyzer import analyze_cafe_file, call_gemini_api, create_relevance_prompt
+from medilawyer_sales.hospital_cafe_crawl.server_host.python_app.cafe_crawler import crawl_cafe, get_driver, make_search_url, scroll_down, parse_li
+from medilawyer_sales.hospital_cafe_crawl.server_host.python_app.cafe_text_analyzer import analyze_cafe_file, call_gemini_api, create_relevance_prompt
 import time
 from datetime import datetime
 import traceback
