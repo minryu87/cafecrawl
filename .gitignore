@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경설정
+.env
+
+# 크롤링 결과
+crawled_csv/
+
+# 기타
+*.sqlite3
+*.db
+.DS_Store 
