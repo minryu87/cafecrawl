@@ -28,3 +28,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 - POST /upload-cafe-csv/ : 카페글 CSV 업로드
   - 입력: form-data (file)
   - 출력: {"status": "success", "file_path": "저장경로"}
+
+
+  ## 수정 확인
+  
